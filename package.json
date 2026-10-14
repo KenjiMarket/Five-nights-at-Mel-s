@@ -1,0 +1,11 @@
+{
+  "name": "midnight-at-mels",
+  "version": "1.0.0",
+  "description": "Midnight at Mel's",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-win": "electron-packager . MidnightAtMels --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "devDependencies": { "electron": "^33.0.0", "@electron/packager": "^18.3.0" }
+}
